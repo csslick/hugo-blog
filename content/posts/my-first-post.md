@@ -16,4 +16,4 @@ draft = false
 
 [csslick](https://cafe.naver.com/csslick)
 
-![이상해씨](/images/000101.png)
+![이상해씨](/hugo-blog/images/000101.png)
