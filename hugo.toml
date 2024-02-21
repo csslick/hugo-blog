@@ -1,4 +1,4 @@
 baseURL = 'https://csslick.github.io/hugo-blog/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'ko'
+title = "CSSLICK Blog"
 theme = 'ananke'

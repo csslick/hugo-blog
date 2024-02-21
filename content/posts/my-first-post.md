@@ -4,7 +4,16 @@ date = 2024-02-21T15:56:25+09:00
 draft = false
 +++
 ## Introduction
+> hello  
+> world
 
-This is **bold** text, and this is *emphasized* text.
+```
+ hello code
+```
+`code simple`
 
-Visit the [Hugo](https://gohugo.io) website!
+---
+
+[csslick](https://cafe.naver.com/csslick)
+
+![이상해씨](/images/000101.png)
