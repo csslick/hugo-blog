@@ -1,4 +1,4 @@
-baseURL = 'https://csslick.github.io/hugo-blog/'
+baseURL = '/'
 languageCode = 'ko'
 title = "CSSLICK Blog"
 theme = 'ananke'
