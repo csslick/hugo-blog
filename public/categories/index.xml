@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on CSSLICK Blog</title>
+    <title>Categories on Hugo Blog</title>
     <link>http://localhost:1313/hugo-blog/categories/</link>
-    <description>Recent content in Categories on CSSLICK Blog</description>
+    <description>Recent content in Categories on Hugo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
+    <lastBuildDate>Sat, 24 Feb 2024 21:43:20 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animals</title>
+      <link>http://localhost:1313/hugo-blog/categories/animals/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/categories/animals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>App</title>
+      <link>http://localhost:1313/hugo-blog/categories/app/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/categories/app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>http://localhost:1313/hugo-blog/categories/general/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/hugo-blog/categories/music/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/categories/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/hugo-blog/categories/travel/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/categories/travel/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

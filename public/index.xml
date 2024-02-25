@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSSLICK Blog</title>
+    <title>Hugo Blog</title>
     <link>http://localhost:1313/hugo-blog/</link>
-    <description>Recent content on CSSLICK Blog</description>
+    <description>Recent content on Hugo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Wed, 21 Feb 2024 15:56:25 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 21:43:20 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/hugo-blog/posts/my-first-post/</link>
-      <pubDate>Wed, 21 Feb 2024 15:56:25 +0900</pubDate>
-      <guid>http://localhost:1313/hugo-blog/posts/my-first-post/</guid>
-      <description>Introduction hello&#xA;world&#xA;hello code code simple&#xA;csslick</description>
+      <title>Post1</title>
+      <link>http://localhost:1313/hugo-blog/posts/post1/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post1/</guid>
+      <description>첫번째 글 </description>
+    </item>
+    <item>
+      <title>Post2</title>
+      <link>http://localhost:1313/hugo-blog/posts/post2/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post2/</guid>
+      <description>두번째 글 </description>
+    </item>
+    <item>
+      <title>Post3</title>
+      <link>http://localhost:1313/hugo-blog/posts/post3/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post3/</guid>
+      <description>세번째 글 </description>
+    </item>
+    <item>
+      <title>Post4</title>
+      <link>http://localhost:1313/hugo-blog/posts/post4/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post4/</guid>
+      <description>네번째 글 </description>
+    </item>
+    <item>
+      <title>Post5</title>
+      <link>http://localhost:1313/hugo-blog/posts/post5/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post5/</guid>
+      <description>다섯번째 글 </description>
     </item>
   </channel>
 </rss>

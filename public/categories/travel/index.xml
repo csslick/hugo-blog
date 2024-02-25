@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Travel on Hugo Blog</title>
+    <link>http://localhost:1313/hugo-blog/categories/travel/</link>
+    <description>Recent content in Travel on Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 24 Feb 2024 21:43:20 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-blog/categories/travel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post2</title>
+      <link>http://localhost:1313/hugo-blog/posts/post2/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post2/</guid>
+      <description>두번째 글 </description>
+    </item>
+  </channel>
+</rss>

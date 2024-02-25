@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/hugo-blog/</loc>
-    <lastmod>2024-02-21T15:56:25+09:00</lastmod>
+    <loc>http://localhost:1313/hugo-blog/categories/animals/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-blog/posts/my-first-post/</loc>
-    <lastmod>2024-02-21T15:56:25+09:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/hugo-blog/posts/</loc>
-    <lastmod>2024-02-21T15:56:25+09:00</lastmod>
+    <loc>http://localhost:1313/hugo-blog/categories/app/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-blog/categories/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/categories/general/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/categories/music/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post1/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post2/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post3/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post4/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/post5/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/posts/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/hugo-blog/categories/travel/</loc>
+    <lastmod>2024-02-24T21:43:20+09:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/hugo-blog/tags/</loc>
   </url>

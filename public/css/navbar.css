@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.navbar .links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .links .search_btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff6;
+  padding: 0.25em 0.5em;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+/* 작은 화면 메뉴 글자 크기 조정 */
+@media (max-width: 768px){
+  .navbar .links {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Animals on Hugo Blog</title>
+    <link>http://localhost:1313/hugo-blog/categories/animals/</link>
+    <description>Recent content in Animals on Hugo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 24 Feb 2024 21:43:20 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-blog/categories/animals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post3</title>
+      <link>http://localhost:1313/hugo-blog/posts/post3/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post3/</guid>
+      <description>세번째 글 </description>
+    </item>
+    <item>
+      <title>Post5</title>
+      <link>http://localhost:1313/hugo-blog/posts/post5/</link>
+      <pubDate>Sat, 24 Feb 2024 21:43:20 +0900</pubDate>
+      <guid>http://localhost:1313/hugo-blog/posts/post5/</guid>
+      <description>다섯번째 글 </description>
+    </item>
+  </channel>
+</rss>

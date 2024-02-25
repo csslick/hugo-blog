@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <main class="list">
+    <ul>
+      {{ range .Paginator.Pages }}
+        <li class="item">
+          <a href="{{ .RelPermalink }}">
+            <figure>
+              <img 
+                src="{{ .Params.image }}" 
+                alt="{{.Title}}"
+                class="list_item_image"
+                loading="lazy"
+              >
+            </figure>
+            <div class="info">
+              <h3>{{ .Title }}</h3>
+              <p class="desc">{{ .Params.description }}</p>
+              <div class="info-group">
+                <img class="avatar" src="/hugo-blog/images/avatar.jpg" alt="avatar">
+                <div class="author">
+                  <span>{{ .Params.author }}</span>
+                  <time class="date">{{ .Date.Format "2006-01-02" }}</time>
+                </div>
+              </div>
+              <div class="categories">
+                {{ range .Params.categories }}
+                  <span class="category">{{ . }}</span>
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        </li>
+      {{ end }}
+    </ul>
+  </main>
+{{ end }}
+ 

@@ -1,0 +1,51 @@
+@import url(navbar.css);
+@import url(footer.css);
+@import url(list.css);
+
+/* 변수 정의 */
+:root {
+  --main-color: #007bff; 
+  --accent-color: #ffc107; /* 보조색: 노란색 */
+  --bg-color: #1f1f1f; /* 배경색: 어두운 회색 */
+  --text-color: #f8f9fa; /* 텍스트 색상: 흰색 */
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* 전체 body 요소에 대한 스타일 */
+body {
+  background-color: var(--bg-color); /* 배경색 변수 적용 */
+  color: var(--text-color); /* 텍스트 색상 변수 적용 */
+  font-family: Arial, sans-serif; /* 글꼴: Arial 또는 sans-serif */
+  font-family: system-ui, sans-serif; /* 글꼴: system-ui 또는 시스템 기본 글꼴 */
+}
+
+a {
+  color: inherit;
+  text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+a:hover {
+  text-decoration: underline; /* 호버 시 링크에 밑줄 표시 */
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+  /* background-color: #666; */
+  /* height: 100dvh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}
