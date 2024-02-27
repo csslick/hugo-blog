@@ -1,5 +1,5 @@
 .list {
-  padding: 40px 0;
+  padding: 0px 0;
 }
 
 .list ul {
@@ -43,21 +43,11 @@
   padding: 20px;
 }
 
-.categories {
-  display: flex;
-  gap: 10px;
-}
-
-.categories .category {
-  background: rgba(255,255,255,0.2);
-  display: block;
-  padding: 4px;
-}
-
 .info-group {
   display: flex;
   gap: 10px;
 }
+
 .info-group img.avatar {
   width: 32px;
   height: 32px;

@@ -1,8 +1,28 @@
 {{ define "main" }}
-  <div class="single">
-    <h1>{{ .Title }}</h1>
-    <article>
-      {{ .Content }}
-    </article>    
-  </div>
+  <main class="single">
+    <header class="single-header">
+      <h1>{{ .Title }}</h1>
+      <div class="single-meta">
+        <div class="single-author">
+          <img class='avatar' src={{.Params.avatar}} alt="avatar">
+          <span class="author">{{.Params.author}}</span>
+        </div><span>|</span>
+        <time>{{.Date.Format "2006-01-02" }}</time>
+      </div>
+      <div class="categories">
+        {{ range (.GetTerms "categories") }}
+          <a href={{.Permalink }}>{{.Name}}</a> 
+        {{ end }}
+      </div>
+    </header>
+    <div class="single-content">
+      <article>
+        <figure class="single-header-image">
+          <img src={{.Params.image}} alt="image">
+        </figure>
+        {{ .Content }}
+      </article> 
+      {{ partial "single_aside.html" . }}
+    </div>
+  </main>
 {{ end }}

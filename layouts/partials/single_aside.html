@@ -1,0 +1,11 @@
+<aside class="single_aside">
+  <h2>Categories</h2>
+  <ul>
+    {{ range .Site.Taxonomies.categories }}
+      <li>
+        <a href="{{.Page.Permalink }}">
+          {{.Page.Title }} <small>({{.Count}})</small>
+        </a>
+      </li>
+    {{ end }}
+</aside>

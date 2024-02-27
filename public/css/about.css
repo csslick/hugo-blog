@@ -1,0 +1,24 @@
+@media (min-width: 768px) {
+  main.about .row {
+    display: flex;
+    gap: 40px;
+  }
+
+  main.about .row figure {
+    max-width: 400px;
+  }
+}
+
+main.about .row figure {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  aspect-ratio: 16/9;
+}
+
+main.about .row figure img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}

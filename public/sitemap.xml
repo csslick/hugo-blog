@@ -41,6 +41,8 @@
     <loc>http://localhost:1313/hugo-blog/categories/travel/</loc>
     <lastmod>2024-02-24T21:43:20+09:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/hugo-blog/about/</loc>
+  </url><url>
     <loc>http://localhost:1313/hugo-blog/tags/</loc>
   </url>
 </urlset>

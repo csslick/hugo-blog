@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <main class="about">
+    <h1>about</h1>
+    <div class="row">
+      <figure>
+        <img src="/hugo-blog/images/avatar.jpg" alt="avatar" width="100%">
+      </figure>
+      <div class="about-text">
+        {{.Content}}
+      </div>
+    </div>
+  </main>
+{{ end }}

@@ -1,0 +1,75 @@
+.single-header {
+  margin-bottom: 1em;
+}
+
+.single-header h1,
+main.about h1 {
+  margin-bottom: 1rem;
+}
+
+.single-meta {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.single-author {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  opacity: 0.75;
+}
+
+.single-header .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.single-meta time {
+  opacity: 0.75;
+}
+
+.single article {
+  padding: 1em 0;
+  /* background: rgba(255,255,255,0.2); */
+}
+
+.single-header-image img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+}
+
+.single h1,
+.single h2,
+.single h3,
+.single h4, p {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 768px) {
+  .single-content {
+    display: flex;
+    gap: 1em;
+  }   
+  .single-content aside {
+    min-width: 200px;
+    padding: 1em;
+  }
+}
+
+.single-content aside ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.single-content aside ul li {
+  margin-bottom: 0.5em;
+}
+
+.single-content article figure {
+  margin-bottom: 1em;
+}

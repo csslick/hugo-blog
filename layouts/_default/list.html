@@ -1,4 +1,9 @@
 {{ define "main" }}
+  <div class="categories tab-list">
+    {{ range .Site.Taxonomies.categories }}
+    <a href="{{.Page.RelPermalink }}">{{.Page.Title }}</a>
+    {{ end }}
+  </div>  
   <main class="list">
     <ul>
       {{ range .Paginator.Pages }}
@@ -30,6 +35,7 @@
             </div>
           </a>
         </li>
+        
       {{ end }}
     </ul>
   </main>
