@@ -1,0 +1,26 @@
+main.home {
+  text-align: center;
+}
+
+main.home h1 {
+  font-size: 6vw;
+}
+
+/* 버튼 스타일  */
+.btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  background-color: #444;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  outline: none;
+}  

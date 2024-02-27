@@ -1,3 +1,5 @@
 baseURL = 'https://csslick.github.io/hugo-blog/'
 languageCode = 'ko'
 title = "Hugo Blog"
+
+paginate = 2

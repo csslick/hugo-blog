@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Blog</title>
+    <title>Home on Hugo Blog</title>
     <link>http://localhost:1313/hugo-blog/</link>
-    <description>Recent content on Hugo Blog</description>
+    <description>Recent content in Home on Hugo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <lastBuildDate>Sat, 24 Feb 2024 21:43:20 +0900</lastBuildDate>
